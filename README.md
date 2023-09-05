@@ -14,7 +14,7 @@ Solution to the _[Ping Single Column Page](https://www.frontendmentor.io/challen
 
 ### Solution
 
-Live Site: []()
+Live Site: [https://tinuola.github.io/fm_ping-single-column/](https://tinuola.github.io/fm_ping-single-column/)
 
 ### Retrospective
 

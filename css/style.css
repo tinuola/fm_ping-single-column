@@ -1,0 +1,30 @@
+:root {
+}
+
+/* Hidden class for accessibility */
+.sr-only {
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+body {
+}
+
+.fm-byline {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.fm-byline,
+.fm-byline a {
+  color: hsl(228, 45%, 44%);
+}
