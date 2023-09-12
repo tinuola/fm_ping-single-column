@@ -1,4 +1,11 @@
 :root {
+  --primary-blue: hsl(223, 87%, 63%);
+  --pale-blue: hsl(223, 100%, 88%);
+  --light-red: hsl(354, 100%, 66%);
+  --gray: hsl(0, 0%, 59%);
+  --neutral-dark-blue: hsl(209, 33%, 12%);
+  --primary-font: 'Libre Franklin', sans-serif;
+  --font-size: 20px;
 }
 
 /* Hidden class for accessibility */
@@ -15,6 +22,30 @@
 }
 
 body {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 920px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
 }
 
 .fm-byline {
