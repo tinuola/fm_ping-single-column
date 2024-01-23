@@ -4,70 +4,107 @@
     <meta charset="UTF-8" />
     <meta
       http-equiv="X-UA-Compatible"
-      content="IE=edge" />
+      content="IE=edge"
+    />
     <!-- Displays site properly based on user's device -->
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0" />
+      content="width=device-width, initial-scale=1.0"
+    />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./assets/images/favicon-32x32.png" />
+      href="./assets/images/favicon-32x32.png"
+    />
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Project Stylesheets -->
     <link
       rel="stylesheet"
-      href="css/reset.css" />
+      href="css/reset.css"
+    />
     <link
       rel="stylesheet"
-      href="css/style.css" />
+      href="css/style.css"
+    />
     <!-- Scripts -->
     <script
+      src="https://kit.fontawesome.com/b0d71a7b81.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
       src="js/script.js"
-      defer></script>
+      defer
+    ></script>
     <title>Ping Single Column Page | Frontend Mentor</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1 class="sr-only">Ping Single Column Page - A Frontend Mentor Project</h1>
-        <img src="./assets/images/logo.svg" alt="Page logo">
+        <h1 class="sr-only">
+          Ping Single Column Page - A Frontend Mentor Project
+        </h1>
+        <img
+          src="./assets/images/logo.svg"
+          alt="Page logo"
+        />
       </header>
       <main>
         <h2>We are launching soon!</h2>
         <h3>Subscribe and get notified</h3>
-        <div>
-          <input type="text" placeholder="Your Email Address">
+        <form action="javascript:void(0);">
+          <input
+            type="text"
+            placeholder="Your Email Address"
+          />
           <button type="submit">Notify Me</button>
-        </div>
-        <div>
-          <img src="./assets/images/illustration-dashboard.png" alt="Screenshot of Ping dashboard">
+        </form>
+        <div class="img-container">
+          <img
+            src="./assets/images/illustration-dashboard.png"
+            alt="Screenshot of Ping application dashboard"
+          />
         </div>
       </main>
-      <footer class="fm-byline-row">
-        <div>Social media icons</div>
-        <p>&copy; Copyright Ping. All rights reserved.</p>
-        <span class="fm-byline">
-          Challenge by
-          <a
-            href="https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da"
-            target="_blank"
-            >Frontend Mentor</a
-          >
-        </span>
-        |
-        <span class="fm-byline">
-          Coded by
-          <a
-            href="https://github.com/tinuola/fm_ping-single-column"
-            target="_blank"
-            >TechTinu</a
-          >
-        </span>
+      <footer>
+        <ul>
+          <li><i class="fa-brands fa-facebook-f fa-xl"></i></li>
+          <li><i class="fa-brands fa-x-twitter fa-xl"></i></li>
+          <li><i class="fa-brands fa-instagram fa-xl"></i></li>
+        </ul>
+        <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
+        <div class="fm-byline-row">
+          <span class="fm-byline">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da"
+              target="_blank"
+              >Frontend Mentor</a
+            >
+          </span>
+          |
+          <span class="fm-byline">
+            Coded by
+            <a
+              href="https://github.com/tinuola/fm_ping-single-column"
+              target="_blank"
+              >TechTinu</a
+            >
+          </span>
+        </div>
       </footer>
     </div>
   </body>
