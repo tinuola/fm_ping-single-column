@@ -28,6 +28,5 @@ Live Site: [tinuola.github.io/fm_ping-single-column/](https://tinuola.github.io/
 
 - HTML, CSS, JavaScript
 - CSS Resets
-- []()
 
 _Visit my [Frontend Mentor profile](https://www.frontendmentor.io/profile/tinuola) to view other challenges I've completed!_
