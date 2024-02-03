@@ -28,7 +28,7 @@
       crossorigin
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
     <!-- Project Stylesheets -->
@@ -63,13 +63,14 @@
         />
       </header>
       <main>
-        <h2>We are launching soon!</h2>
+        <h2>We are launching <span>soon!</span></h2>
         <h3>Subscribe and get notified</h3>
         <form action="javascript:void(0);">
           <input
-            type="text"
-            placeholder="Your Email Address"
+            type="email"
+            placeholder="Your email address..."
           />
+          <p class="error-msg">Please provide a valid email address</p>
           <button type="submit">Notify Me</button>
         </form>
         <div class="img-container">
@@ -81,29 +82,28 @@
       </main>
       <footer>
         <ul>
-          <li><i class="fa-brands fa-facebook-f fa-xl"></i></li>
-          <li><i class="fa-brands fa-x-twitter fa-xl"></i></li>
-          <li><i class="fa-brands fa-instagram fa-xl"></i></li>
+          <li><i class="fa-brands fa-facebook-f fa-lg"></i></li>
+          <li><i class="fa-brands fa-x-twitter fa-lg"></i></li>
+          <li><i class="fa-brands fa-instagram fa-lg"></i></li>
         </ul>
         <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
         <div class="fm-byline-row">
-          <span class="fm-byline">
+          <p class="fm-byline">
             Challenge by
             <a
               href="https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da"
               target="_blank"
               >Frontend Mentor</a
             >
-          </span>
-          |
-          <span class="fm-byline">
+          </p>
+          <p class="fm-byline">
             Coded by
             <a
               href="https://github.com/tinuola/fm_ping-single-column"
               target="_blank"
               >TechTinu</a
             >
-          </span>
+          </p>
         </div>
       </footer>
     </div>
