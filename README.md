@@ -18,8 +18,9 @@ Live Site: [tinuola.github.io/fm_ping-single-column/](https://tinuola.github.io/
 
 
 ### Enhancement(s)
-
-- To do: Add success messasge
+- To do:
+  - Add success messasge
+  - Validate on input?
 
 ### Tools & Resources
 
