@@ -66,13 +66,16 @@
         <h2>We are launching <span>soon!</span></h2>
         <h3>Subscribe and get notified</h3>
         <form>
+          <!-- action="javascript:void(0);" -->
+          <label for="email-input" class="sr-only">Enter your email address</label>
           <input
             type="email"
+            id="email-input"
             placeholder="Your email address..."
           />
-          <p class="error-msg error-msg__mobile">Mobile Message</p>
+          <p class="error-msg" id="error-msg__mobile"></p>
           <button type="submit">Notify Me</button>
-          <p class="error-msg error-msg__desktop">Desktop Message</p>
+          <p class="error-msg" id="error-msg__desktop"></p>
         </form>
         <div class="img-container">
           <img
