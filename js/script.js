@@ -14,6 +14,10 @@ let emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 submitBtn.addEventListener( 'click', validateEmail )
 
 
+/*
+ * Toggle display position of error message depending
+ * on window/screen size
+*/
 function displayErrorMsg () {
   let msg = `Please provide a valid email address`
 
@@ -36,6 +40,9 @@ function displayErrorMsg () {
 }
 
 
+/*
+ * Reset UI after incorrect input 
+*/
 function clearErrorState ( e ) {
   if ( ( !validEmailStatus || emailInput.length < 1 ) && e.key !== 'Enter' ) {
 
@@ -48,6 +55,12 @@ function clearErrorState ( e ) {
 }
 
 
+/*
+ * If email is invalid, update UI and add listener to window 
+ * object to change placement of error message depending on 
+ * window size; add listener to input field to clear incorrect 
+ * user input
+*/
 function validateEmail ( e ) {
   e.preventDefault();
 
