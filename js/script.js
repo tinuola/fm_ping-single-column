@@ -36,14 +36,15 @@ function displayErrorMsg () {
 }
 
 
-function clearErrorState () {
+function clearErrorState ( e ) {
+  if ( ( !validEmailStatus || emailInput.length < 1 ) && e.key !== 'Enter' ) {
 
-  if ( !validEmailStatus || emailInput.length < 1 ) {
     emailInput.classList.remove( 'error-state' )
+
     errMsgDisplay.forEach( field => field.style.display = 'none' )
+
     window.removeEventListener( 'resize', displayErrorMsg )
   }
-
 }
 
 
@@ -69,5 +70,4 @@ function validateEmail ( e ) {
     emailInput.value = ''
 
   }
-
 }

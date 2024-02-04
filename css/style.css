@@ -115,7 +115,6 @@ input, button {
 input {
   color: var(--pale-blue);
   font-weight: 400;
-  /* margin-bottom: 0.625rem; */
 }
 
 input[type='email'] {
@@ -185,6 +184,7 @@ button:hover{
 
 .error-state {
   border: 1px solid var(--light-red);
+  outline: var(--light-red);
 }
 
 .error-msg {
