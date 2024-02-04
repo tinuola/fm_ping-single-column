@@ -1,3 +1,12 @@
+/* 
+ToDo:
+- Set email state back to null after clearing error 
+- Set form height to prevent ping image "jump"
+- Transition form out after successful submit
+- Add success message 
+? How to validate on type/input
+*/
+
 let emailInput = document.getElementById( 'email-input' )
 let emailInputData = null
 
