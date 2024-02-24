@@ -1,17 +1,11 @@
-/* 
-ToDo:
-- Set email state back to null after clearing error 
-- Set form height to prevent ping image "jump"
-- Transition form out after successful submit
-- Add success message 
-? How to validate on type/input
-*/
-
+let formElem = document.querySelector('form')
 let emailInput = document.getElementById( 'email-input' )
 let errMsgDisplay = document.querySelectorAll( '.error-msg' )
 let errMsgMobile = document.getElementById( 'error-msg__mobile' )
 let errMsgDesktop = document.getElementById( 'error-msg__desktop' )
 let submitBtn = document.querySelector( 'button' )
+
+let successElem = document.querySelector('.success-message')
 
 let isEmailInputValid = null
 let emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -83,11 +77,13 @@ function validateEmail ( e ) {
 
   } else {
 
-    // Reset form
+    // Reset/Remove form
     emailInput.value = ''
     isEmailInputValid = null
-
+    formElem.style.display = 'none'
+    
     // Display success message
+    successElem.classList.add('slideInSuccessMsg')
 
   }
 }

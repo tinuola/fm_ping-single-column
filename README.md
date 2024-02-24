@@ -19,12 +19,13 @@ Live Site: [tinuola.github.io/fm_ping-single-column/](https://tinuola.github.io/
 
 ### Enhancement(s)
 - To do:
-  - Add success messasge
-  - Validate on input?
+  - ~~Add success messasge~~
+  - ~~Animate success state~~
 
 ### Tools & Resources
 
 - HTML, CSS, JavaScript
+- CSS Animations
 - [Window: innerWidth _(MDN)_](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerWidth)
 
 
