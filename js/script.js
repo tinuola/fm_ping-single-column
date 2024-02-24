@@ -83,9 +83,11 @@ function validateEmail ( e ) {
 
   } else {
 
+    // Reset form
     emailInput.value = ''
-    
-    // success message
+    isEmailInputValid = null
+
+    // Display success message
 
   }
 }
