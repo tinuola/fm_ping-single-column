@@ -42,7 +42,6 @@ body {
   margin-top: 5rem;
 }
 
-@media (min-width: 800px) {}
 header img {
   width: 60px;
 }
@@ -88,7 +87,7 @@ h2 span {
 
 h3 {
   font-weight: 300;
-  font-size: .75rem;
+  font-size: 1rem;
 }
 
 @media (min-width: 800px) {
@@ -108,7 +107,7 @@ input, button {
   padding: .75rem 0;
   border: 1px solid var(--primary-blue);
   border-radius: 50px;
-  font-size: .75rem;
+  font-size: .875rem;
   margin-bottom: 0.625rem;
 }
 
@@ -179,7 +178,7 @@ button {
 
 button:hover{
   background-color: hsla(223, 87%, 63%, 0.9);
-  transform: scale(1.05);
+  transform: scale(1.025);
 }
 
 .error-state {
@@ -242,6 +241,7 @@ li {
   border: 1px solid var(--pale-blue);
   border-radius: 50%;
   color: var(--primary-blue);
+  transition: color .2s ease, background-color .2s ease;
 }
 
 li:hover {
