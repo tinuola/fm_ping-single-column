@@ -193,26 +193,21 @@ button:hover{
   margin-bottom: 1.25rem;
 }
 
-#error-msg__mobile {
+#error-msg__mobile,
+#error-msg__desktop {
   display: none;
-  }
-
-@media (min-width: 800px) {
-  #error-msg__mobile {
-  display: none;
-  }
 }
 
-#error-msg__desktop {
+@media (min-width: 800px) {
+  #error-msg__mobile,
+  #error-msg__desktop {
     display: none;
-}
+    }
 
-@media (min-width: 800px) {
-#error-msg__desktop {
-  display: none;
-  text-align: left;
-  padding-left: 2.5rem;
-}
+  #error-msg__desktop {
+    text-align: left;
+    padding-left: 2.5rem;
+  }
 }
 
 .img-container {
